@@ -93,7 +93,7 @@ public class L14_LoginAndGenerateToken_69_70_71_72 {
     }
 
     @Test
-    public void p5_getOrderDetails()
+    public void p5_getOrderDetail()
     {
         RequestSpecification requestSpec3 = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com")
                 .addHeader("Authorization",token).addQueryParam("id",orderId).build();
